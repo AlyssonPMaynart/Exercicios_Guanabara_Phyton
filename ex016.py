@@ -2,4 +2,4 @@
 from math import trunc
 n = float(input('Informe um número real: '))
 int = trunc(n)
-print(f'O valor inteiro do número {n} é {int} ')
+print('O valor inteiro do número {:.2f} é {}'.format(n, int))

@@ -1,2 +1,6 @@
 #reprodução de mp3 baixado no pc
 import pygame
+pygame.init()
+pygame.mixer.music.load('ex021.mp3')
+pygame.mixer.music.play()
+pygame.event.wait()

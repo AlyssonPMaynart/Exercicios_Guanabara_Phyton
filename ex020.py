@@ -6,4 +6,4 @@ a3 = str(input('Terceiro nome: '))
 a4 = str(input('Quarto nome: '))
 lista = [a1, a2, a3, a4]
 shuffle(lista)
-print(f'A ordem de apresentação será: {lista}')
+print('A ordem de apresentação será: {}' .format(lista))
