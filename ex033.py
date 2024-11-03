@@ -15,5 +15,5 @@ if n1 > maior:
                     menor = n2
                     if n3 < menor:
                         menor = n3
-print(f'O maior numero escolhido foi o {maior}')
-print(f'O menor numero escolhido foi o {menor}')
+print('O maior numero escolhido foi o {}'.format(maior))
+print('O menor numero escolhido foi o {}'.format(menor))
