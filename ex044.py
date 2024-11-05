@@ -19,4 +19,5 @@ else:
     preco_corrigido = preco
     print("Opção inválida, tente novamente!")
 
-print(f" Nesta modalidade de pagamento, a compra que custou R${preco} passa a custar R${preco_corrigido} ")
+print('Nesta modalidade de pagamento, a compra que custou R${} passa a custar R${}'.format(preco, preco_corrigido))
+
