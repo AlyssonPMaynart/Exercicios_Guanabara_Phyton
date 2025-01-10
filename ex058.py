@@ -1,6 +1,5 @@
 #Jogo da adivinhação melhorado
 from random import randint
-computador = randint(0, 10)
 print('Sou seu computador... Acabei de pensar em um numero entre 0 e 10.')
 print('Será qe você consegue adivinhar qual foi?')
 acertou = False
