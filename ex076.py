@@ -15,5 +15,5 @@ for pos in range(0, len(compras)):
     if pos % 2 == 0:
         print(f'{compras[pos]:.<30}', end='')
     else:
-        print(f'R${compras[pos]:.2f}')
+        print(f'R${compras[pos]:>7.2f}')
 print('-'*30)
