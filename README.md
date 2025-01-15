@@ -1,1 +1,1 @@
-Alteração
+Repositório utilizado para registro d estudos do curso de python do Curso em Vídeo.
