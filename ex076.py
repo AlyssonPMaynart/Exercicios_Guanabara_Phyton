@@ -11,9 +11,9 @@ compras = ("Arroz", 5.99,
 print('-'*40)
 print(f'{"LISTA DE PREÇOS":^40}')
 print('-'*40)
-for pos in range(0, len(compras)):
-    if pos % 2 == 0:
-        print(f'{compras[pos]:.<30}', end='')
+for posicao in range(0, len(compras)):
+    if posicao % 2 == 0:
+        print(f'{compras[posicao]:.<30}', end='')
     else:
-        print(f'R${compras[pos]:>7.2f}')
+        print(f'R${compras[posicao]:>7.2f}')
 print('-'*30)
