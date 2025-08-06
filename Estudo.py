@@ -1,9 +1,37 @@
-estado = dict()
-brasil = list()
+'''
+def título(txt):
+    print('-'  * 30)
+    print(txt)
+    print('-' * 30)
 
-for contador in range(0, 3):
-    estado['uf'] = str(input('Unidade Federativa: '))
-    brasil.append(estado())
+título('   Boteco do José   ')
+título('   Programação   ')
+'''
+'''
+def soma(a, b):
+    s = a + b
+    print(f'A soma de {a} + {b} = {s}')
+#Programa principal
+soma(4, 5)
+'''
+'''
+def dobra(lst):
+    pos = 0
+    while pos < len(lst):
+        lst[pos] *= 2
+        pos +=1
 
-for k, v in estado.items():
-    print(f'{k} = {v}')
+valores = [6,3,9,1,0,2]
+dobra(valores)
+print(valores)
+'''
+def soma(* valores):
+    s = 0
+    for num in valores: 
+        s += num
+    print(f'Somando os valores {valores} temos {s}')    
+
+
+
+soma(5, 2)
+soma(2, 9, 4)
